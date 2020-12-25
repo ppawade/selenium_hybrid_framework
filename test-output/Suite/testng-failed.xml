@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Browser" value="Edge"/>
+  <test name="Test(failed)">
+    <parameter name="Browser" value="Edge"/>
+    <classes>
+      <class name="com.visionit.orangehrm.testCases.Login_Tc_001_2">
+        <methods>
+          <include name="loginOrgangeHrmTest1"/>
+          <include name="setupSuite"/>
+        </methods>
+      </class> <!-- com.visionit.orangehrm.testCases.Login_Tc_001_2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
